@@ -1,0 +1,221 @@
+.nav-bar {
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+}
+
+.hours {
+	font-size: 18px
+}
+
+.header-logo {
+	float: left;
+	padding: 0.5em;
+}
+
+.phoclip {
+	padding: 0.9em 0;
+	height: 75px;
+	width: auto;
+	float: left;
+}
+
+.photobody {
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-image: url("./drawable/main.jpg");
+	background-size: 105%;
+	min-height: 650px;
+}
+
+.photobody2 {
+	color: white;
+	background-image: url("./drawable/main2.jpg");
+	min-height: 500px;
+	background-size: 105%;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	text-align: center;
+	font-size: 10px;
+	color: white;
+}
+
+.textmain {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 80%;
+	margin: auto;
+	padding-left: 10%;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(350%);
+}
+
+.about-us {
+	position:relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background-color: #5B5E6A;
+	background-image:
+		radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+		radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+		radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+		radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.buttonmain {
+	width: 80%;
+	float: left;
+	padding-left: 10%;
+	position: relative;
+	transform: translateY(950%);
+	margin: auto 0;
+	
+}
+
+#authentic {
+	color: white;
+	float: left;
+	font-size: 23px;
+}
+
+.main-buttons {
+	size: 110%;
+	width: auto;
+}
+
+.menu-box {
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background-color: #5B5E6A;
+	background-image:
+		radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+		radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+		radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+		radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.menu-images {
+
+	width: auto;
+	margin:  25px auto;
+}
+
+.mapouter {
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	height: 400px;
+	width: 400px;
+}
+
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:400px;
+	width:400px;
+}
+
+.boxes {
+	width: 100%;
+	margin: auto;
+	padding: .5rem;
+	display: grid;
+	grid-auto-rows: minmax(125px, auto);
+	grid-gap: .5rem;
+}
+
+.boxes li:hover {
+	opacity: 0.60;
+}
+
+.menu-text {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.boxes li {
+	display: flex;
+	align-items: flex-end;
+}
+
+@media screen and (min-width: 40em) {
+	.boxes {
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 10px;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.photobody{
+		background-attachment: scroll;
+		min-height: 400px;
+	}
+	.photobody2 {
+		background-attachment: scroll;
+		min-height: 400px;
+	}
+}
+
+.titletext {
+	width: 60%;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	background-color: #545454;
+}
+
+header {
+	background-color: #800000;
+}
+
+header:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px
+}
+
+nav a:hover{
+	color: #FFD700;
+}
